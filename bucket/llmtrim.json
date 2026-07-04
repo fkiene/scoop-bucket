@@ -1,19 +1,19 @@
 {
-    "version": "0.5.0",
+    "version": "0.6.1",
     "description": "Cut your LLM bill: drop-in proxy that compresses input, output, and cache",
     "homepage": "https://github.com/fkiene/llmtrim",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/fkiene/llmtrim/releases/download/v0.5.0/llmtrim-x86_64-pc-windows-msvc.zip",
-            "hash": "b4dc4d37f3865ac618bf5bcd4af9ca379c3a1f88b192d9339f3a9abcb6995fe5"
+            "url": "https://github.com/fkiene/llmtrim/releases/download/v0.6.1/llmtrim-x86_64-pc-windows-msvc.zip",
+            "hash": "14011fbacc0cc2d4411e8820bf0d52ae6ec77cbd4c31a1eb7aee34333b06d3f3"
         },
         "arm64": {
-            "url": "https://github.com/fkiene/llmtrim/releases/download/v0.5.0/llmtrim-aarch64-pc-windows-msvc.zip",
-            "hash": "43c1f0f333f6dace09d9cde4aa8abe6a34557e41496ee1a1d16ef7d43a6d85bb"
+            "url": "https://github.com/fkiene/llmtrim/releases/download/v0.6.1/llmtrim-aarch64-pc-windows-msvc.zip",
+            "hash": "9fee1677cdfc490bcb7d12cfbc17d4f54a3865744bac21cbf4fa98e3ab1828a8"
         }
     },
-    "bin": "llmtrim.exe",
+    "bin": ["llmtrim.exe", "llmtrim-tray.exe"],
     "checkver": { "github": "https://github.com/fkiene/llmtrim" },
     "autoupdate": {
         "architecture": {
